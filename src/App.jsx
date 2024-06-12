@@ -7,48 +7,49 @@ import Particle from "./components/Particle";
 import Footer from "./layouts/Footer";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  const [delay, setDelay] = useState(5000); // Default delay 5 seconds
+  // const [isLoading, setIsLoading] = useState(true);
+  // const [delay, setDelay] = useState(5000); // Default delay 5 seconds
 
-  useEffect(() => {
-    // Get network information
-    const connection =
-      navigator.connection ||
-      navigator.mozConnection ||
-      navigator.webkitConnection;
+  // useEffect(() => {
+  //   // Get network information
+  //   const connection =
+  //     navigator.connection ||
+  //     navigator.mozConnection ||
+  //     navigator.webkitConnection;
 
-    // Set delay based on connection type
-    if (connection) {
-      switch (connection.effectiveType) {
-        case "4g":
-          setDelay(2000); // Fast connection, shorter delay
-          break;
-        case "3g":
-          setDelay(5000); // Moderate connection, default delay
-          break;
-        case "2g":
-        case "slow-2g":
-          setDelay(10000); // Slow connection, longer delay
-          break;
-        default:
-          setDelay(5000); // Default delay
-          break;
-      }
-    }
+  //   // Set delay based on connection type
+  //   if (connection) {
+  //     switch (connection.effectiveType) {
+  //       case "4g":
+  //         setDelay(2000); // Fast connection, shorter delay
+  //         break;
+  //       case "3g":
+  //         setDelay(5000); // Moderate connection, default delay
+  //         break;
+  //       case "2g":
+  //       case "slow-2g":
+  //         setDelay(10000); // Slow connection, longer delay
+  //         break;
+  //       default:
+  //         setDelay(5000); // Default delay
+  //         break;
+  //     }
+  //   }
 
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, delay);
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, delay);
 
-    // Cleanup the timeout if the component unmounts
-    return () => clearTimeout(timer);
-  }, [delay]);
+  //   // Cleanup the timeout if the component unmounts
+  //   return () => clearTimeout(timer);
+  // }, [delay]);
 
   return (
     <div className="app-container">
-      <Particle />
+      {/* <Particle /> */}
       <Navbar />
-      {isLoading ? <Planets background={"#091724"} /> : <Hero />}
+      {/* {isLoading ? <Planets background={"#091724"} /> : <Hero /> */}
+      <Hero />
       <Footer />
     </div>
   );
