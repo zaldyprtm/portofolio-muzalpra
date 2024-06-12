@@ -6,25 +6,7 @@
 /* Pilihan warna dan ukuran dapat disesuaikan dengan preferensi Anda */
 
 /* Gaya dasar untuk scroller */
-::-webkit-scrollbar {
-    width: 10px; /* Lebar scroller */
-  }
-  
-  /* Gaya track scroller (tempat scroller bergerak) */
-  ::-webkit-scrollbar-track {
-    background: #be2828; /* Warna latar belakang track */
-  }
-  
-  /* Gaya handle scroller (bagian yang dapat digerakkan) */
-  ::-webkit-scrollbar-thumb {
-    background: #520606; /* Warna handle scroller */
-    border-radius: 5px; /* Bentuk bulat untuk handle scroller */
-  }
-  
-  /* Gaya saat scroller dihover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #620101; /* Warna handle scroller saat dihover */
-  }
+
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
   body {
     margin: 0;
