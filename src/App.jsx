@@ -4,8 +4,6 @@ import { Planets } from "react-preloaders";
 import Hero from "./components/Hero";
 import Navbar from "./layouts/Navbar";
 import Particle from "./components/Particle";
-// import ResumeNew from "./components/Resume";
-import { Router } from "react-router-dom";
 import Footer from "./layouts/Footer";
 
 function App() {
@@ -47,14 +45,12 @@ function App() {
   }, [delay]);
 
   return (
-    <>
+    <div className="app-container">
       <Particle />
       <Navbar />
       {isLoading ? <Planets background={"#091724"} /> : <Hero />}
-      <div>
-        <Footer />
-      </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 
