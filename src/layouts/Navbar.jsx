@@ -14,7 +14,7 @@ const Navbar = () => {
     }, []);
 
     const handleTransparent = () => {
-        const navbar = document.querySelector('.navbar');
+        const navbar = document.querySelector('.navv');
         if (window.scrollY > 0) {
             navbar.classList.add('bg-transparent');
         } else {
@@ -25,7 +25,7 @@ const Navbar = () => {
     return (
         <>
             {/* mobile nav */}
-            <div className="navbar bg-base-100 sticky z-10 top-0 shadow-xl">
+            <div className="navbar fixed navv z-10 top-0 shadow-xl">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -62,7 +62,7 @@ const Navbar = () => {
                     <a className="btn btn-ghost text-xl text-[#ce5ff8] font-bold">MUZALPRA</a>
                 </div>
                 {/* desktop nav */}
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-center hidden lg:flex  ">
                     <ul className="menu menu-horizontal px-1">
                         <li className="nav-item">
                             <a className="nav-link flex items-center font-bold text-lg text-[#ce5ff8]">

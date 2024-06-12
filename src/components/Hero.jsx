@@ -49,8 +49,8 @@ const Hero = () => {
         </div>
       </div>
       {/* introduce myself */}
-      <div className="flex flex-col md:flex-row md:gap-10 md:w-full gap-5 justify-center px-5 mt-10 bg-transparent bg-gradient-to-r from-[#021c34] via-[#550587] to-[#6c11ff] h-auto md:h-96 rounded-none md:rounded-full overflow-y-auto">
-        <div className="text-left mt-10 md:mt-0">
+      <div className="flex flex-col md:flex-row md:gap-10 md:w-full gap-5 justify-center px-5 mt-10  bg-transparent bg-gradient-to-r from-[#021c34] via-[#550587] to-[#6c11ff] h-auto md:h-96 rounded-xl md:rounded-full overflow-y-auto">
+        <div className="text-left mt-10 md:mt-20">
           <h1 className="font-bold text-2xl md:text-4xl text-primary uppercase">
             Let me introduce <span className="text-white">myself</span>
           </h1>

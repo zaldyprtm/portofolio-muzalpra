@@ -1,6 +1,7 @@
 /* Styles.css or a relevant CSS file */
 .nav-link {
-    position: relative;
+    position: st;
+    
   }
   
   .nav-link span {
@@ -24,8 +25,8 @@
   }
   
  /* Navbar.css */
-.bg-transparent {
-  backdrop-filter: blur(40px);
-  background-color: rgba(255, 255, 255, 0.5); /* Anda juga bisa menyesuaikan opacity */
+.navv {
+  backdrop-filter: blur(30px);
+  background-color: rgba(5, 20, 66, 0.5); /* Anda juga bisa menyesuaikan opacity */
   transition: backdrop-filter 200ms;
 }
