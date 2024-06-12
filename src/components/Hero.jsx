@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
         <div className="w-full md:w-1/2 lg:w-[600px] flex justify-center md:justify-end">
           <img
-            src="./public/home-main.svg"
+            src="home-main.svg"
             className="w-full md:w-auto"
             alt="Home"
           />
@@ -64,7 +64,7 @@ const Hero = () => {
         </div>
         <div className="mt-5 md:mt-10">
           <img
-            src="./public/zal.png"
+            src="zal.png"
             alt="avatar"
             className="mx-auto w-56 h-56 rounded-full"
           />
