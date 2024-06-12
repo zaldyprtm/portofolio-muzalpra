@@ -4,7 +4,9 @@ import { Planets } from "react-preloaders";
 import Hero from "./components/Hero";
 import Navbar from "./layouts/Navbar";
 import Particle from "./components/Particle";
-
+// import ResumeNew from "./components/Resume";
+import { Router } from "react-router-dom";
+import Footer from "./layouts/Footer";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -12,19 +14,22 @@ function App() {
 
   useEffect(() => {
     // Get network information
-    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    const connection =
+      navigator.connection ||
+      navigator.mozConnection ||
+      navigator.webkitConnection;
 
     // Set delay based on connection type
     if (connection) {
       switch (connection.effectiveType) {
-        case '4g':
+        case "4g":
           setDelay(2000); // Fast connection, shorter delay
           break;
-        case '3g':
+        case "3g":
           setDelay(5000); // Moderate connection, default delay
           break;
-        case '2g':
-        case 'slow-2g':
+        case "2g":
+        case "slow-2g":
           setDelay(10000); // Slow connection, longer delay
           break;
         default:
@@ -41,15 +46,13 @@ function App() {
     return () => clearTimeout(timer);
   }, [delay]);
 
-
-
   return (
     <>
-<Particle />
+      <Particle />
       <Navbar />
-      {isLoading ? <Planets background={'#091724'} /> : <Hero />}
+      {isLoading ? <Planets background={"#091724"} /> : <Hero />}
       <div>
-        
+        <Footer />
       </div>
     </>
   );
