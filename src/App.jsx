@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Planets } from "react-preloaders";
 import Hero from "./components/Hero";
 import Navbar from "./layouts/Navbar";
 import Particle from "./components/Particle";
-import Footer from "./layouts/Footer";
+// import Footer from "./layouts/Footer";
+import Projects from "./components/Projects";
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -45,15 +48,20 @@ function App() {
   }, [delay]);
 
   return (
-    <>
+    <Router>
       <Particle />
-    <div className="app-container">
       <Navbar />
-      {isLoading ? <Planets background={"#091724"} /> : <Hero />}
-      {/* <Hero /> */}
-      <Footer />
-    </div>
-    </>
+      {isLoading ? (
+        <Planets background={"#091724"} />
+      ) : (
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/projects" element={<Projects/>} />
+          {/* Add more routes as needed */}
+        </Routes>
+      )}
+      {/* <Footer /> */}
+    </Router>
   );
 }
 

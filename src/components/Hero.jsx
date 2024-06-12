@@ -2,7 +2,6 @@ import React from "react";
 import { BsGithub, BsInstagram } from "react-icons/bs";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-
 const Hero = () => {
   return (
     <>
