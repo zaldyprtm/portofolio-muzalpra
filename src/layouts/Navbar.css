@@ -1,0 +1,31 @@
+/* Styles.css or a relevant CSS file */
+.nav-link {
+    position: relative;
+  }
+  
+  .nav-link span {
+    margin-left: 5px;
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    bottom: 0;
+    background-color: #ce5ff8;
+    transition: width 0.3s, left 0.3s;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+ /* Navbar.css */
+.bg-transparent {
+  backdrop-filter: blur(40px);
+  background-color: rgba(255, 255, 255, 0.5); /* Anda juga bisa menyesuaikan opacity */
+  transition: backdrop-filter 200ms;
+}
