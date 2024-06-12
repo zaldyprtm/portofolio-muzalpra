@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-center items-center mt-10 gap-10 md:gap-16 w-full px-4 md:px-0">
+      <div className="flex flex-col h-screen md:flex-row justify-center items-center mt-10 gap-10 md:gap-16 w-full px-4 md:px-0">
         <div className="flex flex-col w-full md:w-[600px] items-center md:items-start justify-center p-4 md:p-16">
           <h1 className="text-white font-bold text-2xl md:text-4xl mt-5 flex justify-center md:justify-start items-center">
             Hi&nbsp;<span className="text-primary">There!</span>
