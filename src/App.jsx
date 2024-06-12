@@ -45,13 +45,15 @@ function App() {
   }, [delay]);
 
   return (
-      // {/* <Particle /> */}
+    <>
+      <Particle />
     <div className="app-container">
       <Navbar />
       {isLoading ? <Planets background={"#091724"} /> : <Hero />}
       {/* <Hero /> */}
       <Footer />
     </div>
+    </>
   );
 }
 
