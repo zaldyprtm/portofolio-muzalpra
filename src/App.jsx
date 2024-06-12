@@ -3,6 +3,7 @@ import "./App.css";
 import { Planets } from "react-preloaders";
 import Hero from "./components/Hero";
 import Navbar from "./layouts/Navbar";
+import Particle from "./components/Particle";
 
 
 function App() {
@@ -40,9 +41,11 @@ function App() {
     return () => clearTimeout(timer);
   }, [delay]);
 
+
+
   return (
     <>
-
+<Particle />
       <Navbar />
       {isLoading ? <Planets background={'#091724'} /> : <Hero />}
       <div>
