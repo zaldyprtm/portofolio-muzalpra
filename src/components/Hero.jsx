@@ -2,6 +2,7 @@ import React from "react";
 import { BsGithub, BsInstagram } from "react-icons/bs";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import Footer from "../layouts/Footer";
 const Hero = () => {
   return (
     <>
@@ -93,6 +94,7 @@ const Hero = () => {
           </li>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

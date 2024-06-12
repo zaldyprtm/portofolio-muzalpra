@@ -1,0 +1,19 @@
+.glow {
+    filter: drop-shadow(2px 2px 20px yellow);
+}
+
+.glow-blue {
+    filter: drop-shadow(2px 2px 20px blue);
+}
+
+.glow-green {
+    filter: drop-shadow(2px 2px 20px rgb(61, 241, 61));
+}
+
+.glow-html {
+    filter: drop-shadow(2px 2px 20px rgb(255, 0, 0));
+}
+
+.glow-indigo {
+    filter: drop-shadow(2px 2px 20px rgb(75, 0, 130));
+}

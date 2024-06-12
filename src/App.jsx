@@ -7,7 +7,8 @@ import Navbar from "./layouts/Navbar";
 import Particle from "./components/Particle";
 // import Footer from "./layouts/Footer";
 import Projects from "./components/Projects";
-
+import About from "./components/About";
+import Footer from "./layouts/Footer";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -57,10 +58,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/projects" element={<Projects/>} />
+          <Route path="/about" element={<About />} />
           {/* Add more routes as needed */}
         </Routes>
       )}
-      {/* <Footer /> */}
+
+<Footer />
     </Router>
   );
 }

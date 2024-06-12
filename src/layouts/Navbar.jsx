@@ -60,7 +60,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="btn btn-ghost text-xl text-[#ce5ff8] font-bold">
+                    <div className="btn btn-ghost text-xl text-[#ce5ff8] font-bold glow-blue">
                         <Link to="/">MUZALPRA</Link>
                     </div>
                 </div>
@@ -88,12 +88,14 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn font-bold text-md">
+                    <a className="btn font-bold text-md ">
                         <FaDownload />
                         Resume
                     </a>
                 </div>
+
             </div>
+ 
         </>
     );
 };

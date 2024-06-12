@@ -1,11 +1,11 @@
 
 const Projects = () => {
-    return (
-        <>
-        
-        Projects
-        </>
-    )
-}
+  return (
+    <>
 
-export default Projects
+
+    </>
+  );
+};
+
+export default Projects;
