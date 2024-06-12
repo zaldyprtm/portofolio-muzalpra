@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
         <div className="w-full md:w-1/2 lg:w-[600px] flex justify-center md:justify-end">
           <img
-            src="public/home-main.svg"
+            src="home-main.svg"
             className="w-full md:w-auto"
             alt="Home"
           />
