@@ -13,6 +13,7 @@ import { RiImageLine } from "react-icons/ri";
 import { SiExpress, SiLaragon } from "react-icons/si";
 import "./About.css";
 import { VscCode } from "react-icons/vsc";
+import GitHubCalendar from "react-github-calendar";
 const About = () => {
   return (
     <>
@@ -84,6 +85,16 @@ const About = () => {
             className="w-32 h-20 hover:scale-110 transition-all ease-in-out duration-300 glow-green "
           />
         </div>
+      </div>
+
+      <div className="mt-20 bg-transparent bg-gradient-to-r from-[#021c34] via-[#550587] to-[#6c11ff] rounded-full mb-10">
+        <h1 className="text-4xl p-5 text-primary font-bold text-center ">
+          Days I Code
+        </h1>
+            <div className="mx-auto flex justify-center items-center mt-4 mb-10 p-5">
+            <GitHubCalendar username="zaldyprtm"/>
+            </div>
+        
       </div>
     </>
   );
