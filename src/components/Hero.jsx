@@ -64,7 +64,7 @@ const Hero = () => {
         </div>
         <div className="mt-5 md:mt-10">
           <img
-            src="./public/zal.png"
+            src="zal.png"
             alt="avatar"
             className="mx-auto w-56 h-56 rounded-full"
           />
