@@ -87,7 +87,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-20 bg-transparent bg-gradient-to-r from-[#021c34] via-[#550587] to-[#6c11ff] rounded-full mb-10">
+      <div className="mt-20 bg-transparent bg-gradient-to-r from-[#021c34] via-[#550587] to-[#6c11ff] md:rounded-full rounded-2xl mb-10">
         <h1 className="text-4xl p-5 text-primary font-bold text-center ">
           Days I Code
         </h1>
