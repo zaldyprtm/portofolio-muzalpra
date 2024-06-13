@@ -64,7 +64,7 @@ const About = () => {
 
           <img
             src="fls.png"
-            className="w-32 h-20 hover:scale-110 transition-all ease-in-out duration-300 glow "
+            className="w-32 h-20 hover:scale-110 transition-all ease-in-out duration-300 glow px-5"
           />
         </div>
       </div>
