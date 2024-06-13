@@ -23,6 +23,10 @@ const Navbar = () => {
         }
     }
 
+    const handleHome = () => {
+        window.location.reload();
+    }
+
     return (
         <>
             {/* mobile nav */}
@@ -61,7 +65,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="btn btn-ghost text-xl text-[#ce5ff8] font-bold glow-blue">
-                        <Link to="/">MUZALPRA</Link>
+                        <Link to="/" onClick={handleHome}>MUZALPRA</Link>
                     </div>
                 </div>
                 {/* desktop nav */}
@@ -88,7 +92,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn font-bold text-md " onClick={() => window.open("CVZALDI.pdf")}>
+                    <a className="btn font-bold text-md bg-indigo-600 text-white" onClick={() => window.open("CVZALDI.pdf")}>
                         <FaDownload />
                         Resume
                     </a>
