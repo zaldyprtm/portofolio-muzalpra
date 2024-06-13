@@ -1,6 +1,7 @@
 import Data from "../backend/Data";
 // import Footer from "../layouts/Footer";
 const Projects = () => {
+
   return (
     <>
       <div className="mt-20 mb-10 ">
@@ -26,7 +27,9 @@ const Projects = () => {
               <h2 className="card-title font-bold text-primary">{data.title}</h2>
               <p className="text-white">{data.desc}</p>
               <div className="card-actions">
-                <button className="btn w-40 mt-2 btn-primary font-bold text-white">View</button>
+                <button className="btn w-40 mt-2 btn-primary font-bold text-white" 
+                onClick={() => window.open(data.url)}
+                >VIEW</button>
               </div>
             </div>
           </div>

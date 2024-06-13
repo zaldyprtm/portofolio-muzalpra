@@ -7,14 +7,14 @@ const Data = [
         img: "web-chat.png",
         title: "Website Chat App",
         desc: "Chatting App berbasis Website menggunakan teknologi ReactJs dan Firebase menggunakan authentication google Sign in.",
-        button: "View"
+        url: "https://react-chatapp-seven.vercel.app/"
     },
     {
         id: 2,
         img: "web-ai.png",
         title: "Website AI",
         desc: "Project pribadi membangun sebuah AI disebuah website menggunakan GroqAi dan menggunakan teknologi ReactJs.",
-        button: "View"
+        url: "https://muzalpra-ai.vercel.app/"
     },
 
     {
@@ -22,7 +22,7 @@ const Data = [
         img: "web-kopi.png",
         title: "Landing Page Coffee shop",
         desc: "Landing Page untuk sebuah Coffee Shop menggunakan SPA(Single Page Application) dan React Js.",
-        button: "View"
+        url: "https://warkopi.vercel.app/"
     ,}
 
 ]

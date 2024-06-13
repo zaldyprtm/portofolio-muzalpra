@@ -23,7 +23,9 @@ const About = () => {
           <p className="mt-4">
             Im junior frontend developer based on Indonesia
           </p>
-          <p>Im interested with programming since when im in high school</p>
+          <p>Im interested with programming since when im in high school <br />
+          I am an information systems student from Universitas Terbuka 
+          </p>
           <p>
             Mostly programming languange that i use is React Js, Node Js and
             express Js
