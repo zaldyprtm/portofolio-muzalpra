@@ -88,7 +88,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn font-bold text-md ">
+                    <a className="btn font-bold text-md " onClick={() => window.open("CVZALDI.pdf")}>
                         <FaDownload />
                         Resume
                     </a>
