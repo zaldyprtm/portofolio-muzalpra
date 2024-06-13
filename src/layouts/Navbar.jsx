@@ -24,6 +24,7 @@ const Navbar = () => {
     }
 
     const handleHome = () => {
+        window.Location('./');
         window.location.reload();
     }
 
