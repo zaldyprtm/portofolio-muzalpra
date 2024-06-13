@@ -90,10 +90,32 @@ const About = () => {
           />
         </div>
       </div>
-
+      {/* sertifikat */}
+      <div className="bg-transparent bg-gradient-to-r from-[#021c34] via-[#550587] to-[#6c11ff] md:rounded-full rounded-2xl pb-6">
+        <div className="text-center mb-5">
+          <h1 className="font-bold mt-4 text-primary text-3xl">My <span className="text-white">Certificate</span></h1>
+        </div>
+        <div className="flex gap-10 flex-wrap mx-auto items-center justify-center rounded-2xl">
+          <div className="">
+          <img src="myskill-backend.jpg" 
+          className="w-56 md:w-72 md:h-48 shadow-2xl backdrop-blur-2xl hover:scale-125 duration-300 rounded-lg"
+          />
+          </div>
+          <div>
+            <img src="Revou-Se.jpg" alt="" 
+            className="w-56 h-32 md:w-64 md:h-48 hover:scale-125 duration-300 rounded-lg"
+            />
+          </div>
+          <div className="">
+            <img src="xuetang.jpg" alt="" 
+            className="w-56 md:w-64 md:h-48 hover:scale-125 duration-300 h-32 rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
       <div className="mt-20 bg-transparent bg-gradient-to-r from-[#021c34] via-[#550587] to-[#6c11ff] md:rounded-full rounded-2xl mb-10">
         <h1 className="text-4xl p-5 text-primary font-bold text-center ">
-          Days I Code
+          Days I <span className="text-white">Code</span>
         </h1>
             <div className="mx-auto flex justify-center items-center mt-4 mb-10 p-5">
             <GitHubCalendar username="zaldyprtm"/>
