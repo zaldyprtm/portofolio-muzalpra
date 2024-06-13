@@ -17,7 +17,7 @@ import GitHubCalendar from "react-github-calendar";
 const About = () => {
   return (
     <>
-      <div className="flex md:flex-row md:w-full justify-evenly mt-20 px-5 w-96 ">
+      <div className="flex md:flex-row md:w-full flex-wrap justify-evenly mt-20 px-5 w-96 ">
         <div className="font-semibold text-white mt-2">
           <h1 className="font-bold text-4xl text-primary ">Here i am</h1>
           <p className="mt-4">
@@ -38,7 +38,9 @@ const About = () => {
           </div>
         </div>
         <div>
-          <img src="avatar.svg" alt="" />
+          <img src="ava.jpg" alt="ava.jpg" 
+          className="rounded-full md:w-52 md:h-52 mt-5 w-52"
+          />
         </div>
       </div>
       {/* Skills */}
