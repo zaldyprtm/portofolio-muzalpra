@@ -49,6 +49,7 @@ function App() {
   }, [delay]);
 
   return (
+    <>
     <Router>
       <Particle />
       <Navbar />
@@ -63,8 +64,9 @@ function App() {
         </Routes>
       )}
 
-<Footer />
     </Router>
+<Footer />
+</>
   );
 }
 
