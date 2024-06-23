@@ -26,8 +26,8 @@ const Data = [
     id: 4,
     img: "kopi-2.png",
     title: "Coffee & Chill",
-    desc: "Sebuah website untuk coffee shop sederhana dengan fitur checkout item menggunakan teknologi MERN Stack.",
-    url: "https://vercel-clients-kopishop.vercel.app/"
+    desc: "Sebuah website untuk coffee shop sederhana dengan fitur checkout item menggunakan teknologi MERN Stack dan pembayaran menggunakan Midtrans.",
+    url: "https://ngopibro-clients.vercel.app/"
 
   }
 ];
