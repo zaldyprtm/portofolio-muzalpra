@@ -114,7 +114,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a
             className="btn font-bold text-md bg-indigo-600 text-white"
-            onClick={() => window.open("CVZALDI.pdf")}
+            onClick={() => window.open("RESUMEMuhammadZaldiPratama.pdf")}
           >
             <FaDownload />
             Resume

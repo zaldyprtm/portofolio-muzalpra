@@ -27,8 +27,7 @@ const Hero = () => {
               sequence={[
                 "Software Developer",
                 2000,
-                "MERN STACK Developer",
-                1000,
+           
                 "Music Producer",
                 2000,
               ]}
