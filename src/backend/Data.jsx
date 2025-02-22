@@ -24,10 +24,10 @@ const Data = [
 
   {
     id: 4,
-    img: "kopi-2.png",
-    title: "Coffee & Chill",
-    desc: "Sebuah website untuk coffee shop sederhana dengan fitur checkout item menggunakan teknologi MERN Stack dan pembayaran menggunakan Midtrans.",
-    url: "https://ngopibro-clients.vercel.app/"
+    img: "lyrapulse.png",
+    title: "LyraPulse | Share Your Happiness",
+    desc: "Sebuah Platform untuk share pesan anonim dan share foto dengan teman-teman menggunakan React typescript dan ExpressJS sebagai BE.",
+    url: "https://lyrapulse.vercel.app/"
 
   }
 ];

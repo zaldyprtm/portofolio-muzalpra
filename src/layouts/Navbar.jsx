@@ -113,10 +113,10 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a
-            className="btn font-bold text-md bg-indigo-600 text-white"
-            onClick={() => window.open("RESUMEMuhammadZaldiPratama.pdf")}
+            className="btn font-bold text-md bg-indigo-600 text-white disabled"
+            
           >
-            <FaDownload />
+            <FaDownload className="disabled"/>
             Resume
           </a>
         </div>
